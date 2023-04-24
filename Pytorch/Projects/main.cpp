@@ -24,11 +24,43 @@ user inputs :
         and travel with 
 
 */
+/*
+this section will describe the events for the user input and guides me through the structure of user input 
 
-int main() {
+
+*/
+class customer {
+char people;
+int type_of_trip;
+int budget;
+int days_to_live;
+public:
+customer(){
+    cout<<"welcome to Make My Trip better and today we will guide you through you r perfect dream trip making jouney ";
+    
+    cin>>people;
+    cout<<"please enter what are you looking for in a trip \n 1.Adventure \n2.Religious  \n3.city exploration` \n";
+    cout<<"please tell us your budget in rupees";
+    cin>>budget;
+    cout<<"please enter the number of people including you on the trip";
+
 
 
 
 
 }
+
+
+
+
+};
+
+
+
+int main() {
+
+customer();
+
+
+};
 
